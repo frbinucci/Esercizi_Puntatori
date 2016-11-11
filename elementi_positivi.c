@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
 int contaPositivi(int *vet,int size);
 
 int main()
@@ -20,14 +19,8 @@ int main()
 	}
 
 	positivi=contaPositivi(vet,dim);
-
 	printf("\nElementi positivi nell'array: %d",positivi);
-
 	printf("\n\n");
-
-
-
-
 }
 
 int contaPositivi(int *vet,int size)
@@ -41,6 +34,5 @@ int contaPositivi(int *vet,int size)
 			count++;
 		}
 	}
-
 	return count;
 }

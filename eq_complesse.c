@@ -22,9 +22,6 @@ int main()
 	printf("\nx2=%g - i%g",rex2,imx2);
 
 	printf("\n\n");
-
-
-
 }
 
 void calcolaRadici(double a,double b,double c,double *rex1,double *imx1,double *rex2,double *imx2)
